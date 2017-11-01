@@ -47,4 +47,8 @@ def sqrtz(n, x):
     else: 
       high = mid 
   return low
+
+import math
+def sqrtBig(n, x):
+  return math.exp(math.log(n) / x)
   
